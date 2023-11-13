@@ -15,15 +15,17 @@ However, the "isNaN()" function can be used to check if a value is NaN or not.
 
 // Number 2
 
-/* let check = (word) =>{
+ let check = (word) =>{
   const revWord = word.split("").reverse().join("").toUpperCase()
   console.log(revWord)
  if(word.toUpperCase() === revWord){
       return true
-  }else{
+
+  }else{  
       return false
   }
-} */
+} 
+console.log(check("madam"))
 
 /* 
 
